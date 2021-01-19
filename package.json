@@ -1,0 +1,38 @@
+{
+  "name": "gravityforms-nutshell-integration",
+  "version": "1.0.0",
+  "description": "JS dependencies for the plugin",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --mode=development --watch --config webpack.config.js",
+    "build": "webpack --mode=production --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radboris/wp-gf-nutshell.git"
+  },
+  "keywords": [
+    "gravityforms",
+    "nutshell",
+    "api"
+  ],
+  "author": "radboris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/radboris/wp-gf-nutshell/issues"
+  },
+  "homepage": "https://github.com/radboris/wp-gf-nutshell#readme",
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "chosen-js": "^1.8.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "css-loader": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
+  }
+}
