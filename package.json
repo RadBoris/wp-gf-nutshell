@@ -9,19 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GuloSolutions/gravityforms-nutshell-integration.git"
+    "url": "git+https://github.com/radboris/wp-gf-nutshell.git"
   },
   "keywords": [
     "gravityforms",
     "nutshell",
     "api"
   ],
-  "author": "radboris, zwilson, fsimmons",
+  "author": "radboris",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GuloSolutions/gravityforms-nutshell-integration/issues"
+    "url": "https://github.com/radboris/wp-gf-nutshell/issues"
   },
-  "homepage": "https://github.com/GuloSolutions/gravityforms-nutshell-integration#readme",
+  "homepage": "https://github.com/radboris/wp-gf-nutshell#readme",
   "dependencies": {
     "babel-loader": "^8.0.6",
     "chosen-js": "^1.8.7"
